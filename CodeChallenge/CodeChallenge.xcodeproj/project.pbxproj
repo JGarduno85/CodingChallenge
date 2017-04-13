@@ -556,7 +556,7 @@
 				BASE_URL = "http://www.nactem.ac.uk";
 				INFOPLIST_FILE = CodeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Jose.Acosta.CodeChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humbertogarduno.CodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -569,7 +569,7 @@
 				BASE_URL = "http://www.nactem.ac.uk";
 				INFOPLIST_FILE = CodeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Jose.Acosta.CodeChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.humbertogarduno.CodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
