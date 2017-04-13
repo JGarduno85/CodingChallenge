@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="6fH-EU-nIc">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rYX-B3-3Mf">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="rYX-B3-3Mf" secondAttribute="trailing" id="2Eq-Tr-2nE"/>
+                            <constraint firstItem="6fH-EU-nIc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SvM-3e-6KT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rYX-B3-3Mf" secondAttribute="bottom" id="TLH-Ym-T1T"/>
+                            <constraint firstItem="6fH-EU-nIc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="frb-hD-nJh"/>
+                            <constraint firstItem="rYX-B3-3Mf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hdc-6D-ha0"/>
+                            <constraint firstItem="rYX-B3-3Mf" firstAttribute="top" secondItem="6fH-EU-nIc" secondAttribute="bottom" id="ifQ-0U-Ra2"/>
+                            <constraint firstAttribute="trailing" secondItem="6fH-EU-nIc" secondAttribute="trailing" id="vqp-F8-scW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="acronymSearchBar" destination="6fH-EU-nIc" id="mTh-1Y-cY4"/>
+                        <outlet property="acronymTableView" destination="rYX-B3-3Mf" id="5Wc-HJ-36s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="337"/>
+        </scene>
+    </scenes>
+</document>
