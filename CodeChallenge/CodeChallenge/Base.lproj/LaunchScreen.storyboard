@@ -18,12 +18,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRp-Ml-oFA">
-                                <rect key="frame" x="68" y="280" width="464" height="41"/>
+                                <rect key="frame" x="148" y="287" width="305" height="27"/>
                                 <attributedString key="attributedText">
                                     <fragment content="ACRONYMS SEARCH DEMO">
                                         <attributes>
                                             <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <font key="NSFont" size="35" name="HelveticaNeue"/>
+                                            <font key="NSFont" size="23" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -33,9 +33,17 @@
                         </subviews>
                         <color key="backgroundColor" red="0.53456057008534641" green="0.91580105950604695" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dRp-Ml-oFA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2TX-k4-Qh9"/>
                             <constraint firstItem="dRp-Ml-oFA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8vH-5T-Lvo"/>
-                            <constraint firstItem="dRp-Ml-oFA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="d0J-Ql-awB"/>
+                            <constraint firstItem="dRp-Ml-oFA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="8" id="rKA-0j-sGw"/>
+                            <constraint firstAttribute="trailing" secondItem="dRp-Ml-oFA" secondAttribute="trailing" constant="8" id="tYS-ue-SsK"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rKA-0j-sGw"/>
+                                <exclude reference="tYS-ue-SsK"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
